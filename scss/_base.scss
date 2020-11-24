@@ -1,0 +1,42 @@
+body {
+    background-color: rgba(0,0,0,0.2);
+//    min-height: 100vh;
+padding: 10px;
+}
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    min-height: 90vh;
+    width: 100%;
+    justify-content: space-around;
+    padding: 0 10px;
+    padding-bottom: 10px;
+}
+.box {
+    display: flex;
+    border: 1px solid black;
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 10px;
+
+}
+
+.first {
+    height: 120px;
+    width: 300px;
+    background-color: rgb(168, 166, 43);
+}
+
+.second {
+    height: 30px;
+    width: 200px;
+    background-color: rgb(51, 139, 73);
+}
+
+.third {
+    height: 60px;
+    width: 120px;
+    background-color: rgb(42, 56, 187);
+
+}

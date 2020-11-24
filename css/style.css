@@ -1,0 +1,35 @@
+body {
+  background-color: rgba(0, 0, 0, 0.2);
+  padding: 10px; }
+
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  min-height: 90vh;
+  width: 100%;
+  justify-content: space-around;
+  padding: 0 10px;
+  padding-bottom: 10px; }
+
+.box {
+  display: flex;
+  border: 1px solid black;
+  width: 95%;
+  margin: 0 auto;
+  margin-top: 10px; }
+
+.first {
+  height: 120px;
+  width: 300px;
+  background-color: #a8a62b; }
+
+.second {
+  height: 30px;
+  width: 200px;
+  background-color: #338b49; }
+
+.third {
+  height: 60px;
+  width: 120px;
+  background-color: #2a38bb; }
